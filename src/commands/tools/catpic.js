@@ -1,12 +1,7 @@
 const { SlashCommandBuilder } = require('discord.js'); 
 const { execute } = require('../../events/client/ready');
 const axios = require('axios')
-
-
-
-
-
-
+ 
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -36,23 +31,4 @@ module.exports = {
             content: newMessage
         });
     }
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-async function newFunction() {
-    return await getImage();
 }
-    
